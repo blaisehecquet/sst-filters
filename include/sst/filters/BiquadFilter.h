@@ -232,7 +232,7 @@ struct alignas(16) BiquadFilter
     float plot_magnitude(float f);
     TuningAndDBProvider *storage{nullptr};
 
-  protected:
+
     void set_coef(double a0, double a1, double a2, double b0, double b1, double b2);
     bool first_run;
 };
